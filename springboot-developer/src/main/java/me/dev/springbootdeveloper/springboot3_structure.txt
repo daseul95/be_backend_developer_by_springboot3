@@ -1,0 +1,9 @@
+프레젠테이션 계층(TestController.java)
+비즈니스 계층(TestService.java)
+
+HTTP요청(url:/test) -> 프레젠테이션 계층 <-> 비지니스 계층
+
+DB에 접근할 때 사용할 객체는 Member DAO 객체
+DB에서 데이터를 가져오는 퍼시스턴트 계층(MemberRepository.java)
+
+                비지니스 계층 <-> 퍼시스턴스 계층 <-> 데이터베이스
